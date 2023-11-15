@@ -26,6 +26,7 @@ body {
     margin: 0;
     min-height: 100vh;
     display: flex;
+    font-family: 'dead-saloon';
 }
 
 a {
@@ -53,7 +54,7 @@ a {
     display: flex;
     padding: 48px;
     justify-content: center;
-    font-family: 'dead-saloon';
+    
 
 }
 
@@ -78,4 +79,112 @@ a {
 .main-image {
     flex: 1;
     max-width: 500px;
+}
+
+.random-info {
+    padding: 48px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #b5c1cb;
+    gap: 48px;
+}
+
+.info-header {
+    font-size: 36px;
+}
+
+.gear-pics {
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+    text-align: center;
+}
+
+.text {
+    padding-top: 16px;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.gear {
+    max-width: 200px;
+}
+
+.gear .with-border {
+    border: 8px solid #d3d8db;
+    border-radius: 40px;
+}
+
+.quote-section {
+    background-color: #d8d8d8;
+    display: flex;
+    justify-content: center;
+    padding: 48px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quote-text{
+    font-size: 36px;
+    text-align: center;
+    max-width: 800px;
+    font-style: italic;
+    color: #555555;
+}
+
+.quote-author {
+    align-self: flex-end;
+    font-size: 24px;
+}
+
+.final-section {
+    display: flex;
+    justify-content: center;
+    padding: 48px;
+    background-color: #e5e9ec;
+}
+
+.blue-box {
+    background-color: #3882F6;
+    padding: 32px;
+    display: flex;
+    gap: 128px;
+    align-items: center;
+    color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.blue-text {
+    display: flex;
+    flex-direction: column;
+    gap: 8fpx;
+   
+}
+
+.call {
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.call-info {
+    font-size: 18px;
+}
+
+.button {
+    color: white;
+    font-weight: 700;
+    padding: 16px;
+    border: 1px solid white;
+    border-radius: 8px;
+}
+
+.footer {
+    background-color: #333333 ;
+    display: flex;
+    align-items: center;
+    padding: 24px;
+    justify-content: space-around;
+    color: white;
 }
