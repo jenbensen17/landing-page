@@ -4,7 +4,7 @@ body {
 }
 
 .header {
-    background-color: #8c8d88;
+    background-color: #e5e9ec;
     display: flex;
     align-items: center;
     padding: 24px;
@@ -38,8 +38,8 @@ a {
 .logo {
     display: flex;
     align-items: center;
-    gap: 16px;
-    font-size: 48px;
+    gap: 24px;
+    font-size: 24px;
 }
 
 @font-face {
@@ -47,3 +47,35 @@ a {
     src: url("./fonts/thedeadsaloon-Regular.ttf") format('truetype');
 }
 
+
+.below {
+    background-color: #e5e9ec;
+    display: flex;
+    padding: 48px;
+    justify-content: center;
+    font-family: 'dead-saloon';
+
+}
+
+.main-info {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    max-width: 500px;
+    gap: 16px;
+}
+
+.slogan {
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.small-info {
+    font-size: 18px;
+    color: #333333
+}
+
+.main-image {
+    flex: 1;
+    max-width: 500px;
+}
